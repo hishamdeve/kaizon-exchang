@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/exchange.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <!-- CSS only -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Kaizon Exchange</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/lightslider.js"></script>
+
+    <link rel="shortcut icon" href="images/icon.png">
+
+</head>
+
+<body>
+    <nav>
+        <div class="work-hours" onload="animate_string('target')">
+            <p id="target">اوقات الدوام من السبت الى الخميس من الساعة 9:00 ص الى الساعة 9 م</p>
+        </div>
+        <div class="navigation">
+            <h1 href="#">كايزون للحوالات</h1>
+            <ul class="menu">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i> تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--full-slider  -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+           
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/slider-1.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="title">كايزون للحولات</h5>
+                    <p class="description">استلم وحول حوالتك في لحظات</p>
+                    <a href="#" class="f-slider-btn justify-content-center ">حول الان</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/slider-2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="title">كايزون للحولات</h5>
+                    <p class="description">استلم وحول حوالتك في لحظات</p>
+                    <a href="#" class="f-slider-btn justify-content-center ">حول الان</a>
+                </div>
+            </div>
+           
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+    <section class="container-goals-vision">
+        <div class="vision">
+            <div class="vision-text-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, at repudiandae fugit provident a
+                    quasi
+                    sunt exercitationem consequuntur! Similique veritatis modi, quia voluptas molestias et sed ipsum
+                    ullam
+                    officiis illo?</p>
+            </div>
+
+            <h1>رؤيتنا</h1>
+        </div>
+        <div class="goals">
+            <h1>مهمتنا</h1>
+            <div class="vision-text-container">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum rerum, ratione adipisci magni
+                    quidem deleniti voluptatibus! Consequuntur ipsam aliquid deserunt repellat maiores, nisi rerum
+                    facilis
+                    hic doloremque quam sapiente.</p>
+            </div>
+        </div>
+    </section>
+    <section class="money-exchang">
+        <span>سعر الصرف مقابل الريال اليمني</span>
+        <div class="calculate-money">
+            <input type="text" placeholder="ادخل المبلغ بالريال هنا" id="input-val"
+            onclick="prevSitting()">
+            <input type="button" value="احسب" id="calc-btn" 
+            onclick="calculator()" >
+        </div>
+    </section>
+    <section class="container-parteners">
+        <div class="container-text">
+            <strong>شركائنا</strong>
+        </div>
+
+        <div class="partner-box-img">
+            <img src="images/hazmi.jpg" alt="">
+            <img src="images/najim.jpg" alt="">
+            <img src="images/no'aman.png" alt="">
+        </div>
+    </section>
+    <section class="container-branches">
+        <div class="branches-text">
+            <strong>فروعنا</strong>
+            <div class="branches-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestias, sed modi similique
+                    iste
+                    explicabo sit culpa expedita earum aperiam molestiae fugiat, soluta qui maiores? Fugit, quisquam.
+                    Dolor,
+                    odio velit.</p>
+            </div>
+
+        </div>
+        <div class="branches-img">
+            <img src="images/yemenmap.png" alt="">
+        </div>
+    </section>
+    <section class="page-bottom">
+
+        <div class="container-end">
+            <div class="address">
+                <h1>العنوان</h1>
+                <p> صنعاء- شارع حده , الزبير وشعوب<br>
+                    ذمار- الشارع العام<br>
+                    عدن- خور مكسر,كريتر<br>
+                    تعز- الحوبان<br>
+                    اب -الرضمة<br>
+                </p>
+            </div>
+            <div class="details">
+                <strong class="kaizon-name">KAIZON Exchange</strong>
+                <div class="links-about">
+
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+        <div class="subscribe">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <form>
+                <input type="text" placeholder="Example@gmail.com">
+                <input type="submit" value="Subscribe">
+            </form>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="js/exchange.js"></script>
+</body>
+
+</html>
