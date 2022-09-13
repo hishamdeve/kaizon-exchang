@@ -422,3 +422,95 @@ footer{
         z-index: 100;
     }
 }
+@media screen and (min-width:500){
+    nav{
+        width: 100%;
+    }
+    #target{
+        font-size: 0.2rem;
+    }
+    .navigation{
+        padding: 10px;width: 100%;
+    }
+    .navigation .menu li a{
+        width: 100%;height: 50px;display: flex;align-items: center;
+        margin: 0px;padding: 10px;justify-content: center;
+        font-size: 1rem;border: 1px solid #aaaaaa;
+    }
+    .carousel-item img{
+        height: 100%;
+    }
+    .carousel-caption{
+        width: 100%;
+    }
+    
+    .container-goals-vision{
+        height: 100%;width: 100%;display: flex;flex-direction: column;
+    }
+    .vision-text-container{
+        width: 100%;display: flex;flex-direction: column;
+        padding-top: 10px;
+    }
+    .vision h1{
+        font-size: 4rem;position: relative;right: 100px;
+        
+    }
+    .money-exchang strong{
+        font-size: 0.9rem;
+    }
+    .calculate-money input[type='text']{
+        font-size: 0.5rem;padding: 5px 15px;
+    }
+    .container-parteners{
+        width: 100%;height: 60vh;padding-top: 10px;
+    }
+    .partner-box-img{
+        width: 100%;padding: 5px;
+    }
+    .partner-box-img img{
+        margin-left: 20px;
+    }
+    .subscribe{
+        width: 100%;
+    }
+    .subscribe form{
+        flex-wrap: nowrap;display: flex;width: 100%;
+    }
+    .subscribe input{
+        width: 100%;flex-grow: 1;
+    }
+    .login-form,.sign-up-form{
+        width: 90%;
+    }
+    .container-branches{
+        width: 100%;display: flex;flex-direction: column;
+        height: 70vh;margin-top: 140px;z-index: 100;
+    }
+    .branches-text{
+        display: flex;flex-direction: column;width: 100%;height: 100%;
+        padding: 10px 5px;
+    }
+    .branches-text strong{
+        font-size: 2rem;position: relative;
+    }
+    .branches-text p{
+        margin: 5px 5px;text-align: right;
+    }
+    .branches-img{
+        width: 100%;height: 100%;
+    }
+    .page-bottom{
+        width: 100%;height: 100vh;padding: 5px 10px;
+    }
+    .container-end{
+        width: 100%;margin: 0px 20px;
+    }
+    .address{
+        width: 100%;display: flex;position: relative;top: 10px;
+    }
+    .address h1{
+        font-size: 0.5rem;
+    }
+    
+    
+}
