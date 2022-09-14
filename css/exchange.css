@@ -517,7 +517,7 @@ footer{
         width: 90%;height: 100%;
     }
     .address{
-        margin-bottom: 20px;
+        margin-bottom: 20px;margin-left: -10px;
     }
     .address h1{
         margin-top: 20px;font-size: 1rem;position: relative;right: 10px;
@@ -526,13 +526,13 @@ footer{
         font-size: 0.7rem;position: relative;right: -20px;
     }
     .details{
-        line-height: 1px;height: 100%;width: 100%;
+        line-height: 1px;height: 100%;width: 90%;
     }
     .details strong{
         font-size: 0.9rem;position: relative;left: -100px;
     }
     .links-about{
-        position: relative;left: -8px;
+        position: relative;
         margin-bottom: 60px;
     }
     .links-about ul li{
