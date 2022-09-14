@@ -517,13 +517,13 @@ footer{
         width: 90%;height: 100%;
     }
     .address{
-        margin-bottom: 20px;margin-left: -10px;
+        margin-bottom: 20px;margin-left: -15px;
     }
     .address h1{
         margin-top: 20px;font-size: 1rem;position: relative;right: 10px;
     }
     .address p{
-        font-size: 0.7rem;position: relative;right: -20px;
+        font-size: 0.7rem;position: relative;right: -32px;
     }
     .details{
         line-height: 1px;height: 100%;width: 90%;
